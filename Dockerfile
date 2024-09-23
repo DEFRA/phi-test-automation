@@ -1,17 +1,10 @@
-FROM node:21-alpine
+FROM amazoncorretto:11-alpine
 
-ENV TZ="Europe/London"
-
-USER root
-
-RUN apk add --no-cache \
-    openjdk17-jre-headless \
-    curl \
-    aws-cli
-
-WORKDIR /app
+RUN apk update && apk add maven
 
 COPY . .
-RUN npm install
+
+RUN mvn compile
+
 
 ENTRYPOINT [ "./entrypoint.sh" ]
