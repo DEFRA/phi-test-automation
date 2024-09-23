@@ -1,0 +1,500 @@
+[
+  {
+    "pest_detail": [
+      {
+        "_id": "66d0524687dcb42447b88c04",
+        "EPPO_CODE": "DENCMI",
+        "GENUS_NAME": "string",
+        "CSL_REF": 8644,
+        "LATIN_NAME": "Dendroctonus micans",
+        "PARENT_CSL_REF": "string",
+        "QUARANTINE_INDICATOR": "P",
+        "REGULATION_CATEGORY": "Pest free area quarantine pests (Annex 3)",
+        "REGULATION_INDICATOR": "",
+        "PEST_NAME": [
+          {
+            "type": "LATIN_NAME",
+            "NAME": "Dendroctonus micans"
+          },
+          {
+            "type": "COMMON_NAME",
+            "NAME": [
+              "Large spruce beetle"
+            ]
+          },
+          {
+            "type": "SYNONYM_NAME",
+            "NAME": [
+              "Hylesinus abietinus",
+              "Bostrichus micans",
+              "Hylesinus micans",
+              "Scolytus abietinus",
+              "Bostrichus abietinus"
+            ]
+          }
+        ],
+        "PLANT_LINK": [
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Pinus sylvestris"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Pine, Scotch"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 19208,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "PIUSI",
+            "LATIN_NAME": "Pinus sylvestris",
+            "PARENT_HOST_REF": 19114
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Larix decidua"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Larch, common",
+                  "Larch, European"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": [
+                  "Larix europaea"
+                ]
+              }
+            ],
+            "HOST_REF": 14132,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "LAXDE",
+            "LATIN_NAME": "Larix decidua",
+            "PARENT_HOST_REF": 14131
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Coniferous trees"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Plants, coniferous woody"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 6780,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "NNNWN",
+            "LATIN_NAME": "Coniferous trees",
+            "PARENT_HOST_REF": null
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Larix"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Larch"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 14131,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "1LAXG",
+            "LATIN_NAME": "Larix",
+            "PARENT_HOST_REF": 27500
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Abies"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Fir"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 28,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "1ABIG",
+            "LATIN_NAME": "Abies",
+            "PARENT_HOST_REF": 27500
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Picea abies"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Spruce, Norway"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": [
+                  "Picea excelsa"
+                ]
+              }
+            ],
+            "HOST_REF": 19002,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "PIEAB",
+            "LATIN_NAME": "Picea abies",
+            "PARENT_HOST_REF": 19001
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Picea"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Spruce"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 19001,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "1PIEG",
+            "LATIN_NAME": "Picea",
+            "PARENT_HOST_REF": 27500
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Picea orientalis"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Spruce, Caucasian"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 19026,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "PIEOR",
+            "LATIN_NAME": "Picea orientalis",
+            "PARENT_HOST_REF": 19001
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Picea sitchensis"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Spruce, Sitka"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 19034,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "PIESI",
+            "LATIN_NAME": "Picea sitchensis",
+            "PARENT_HOST_REF": 19001
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Pinus"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Pine"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 19114,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "1PIUG",
+            "LATIN_NAME": "Pinus",
+            "PARENT_HOST_REF": 27500
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Pseudotsuga menziesii var. menziesii"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Douglas-fir, common",
+                  "Oregon-pine"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": [
+                  "Pseudotsuga menziesii",
+                  "Abies douglasii",
+                  "Pseudotsuga douglasii",
+                  "Pseudotsuga mucronata",
+                  "Pseudotsuga taxifolia"
+                ]
+              }
+            ],
+            "HOST_REF": 20387,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "PSTME",
+            "LATIN_NAME": "Pseudotsuga menziesii var. menziesii",
+            "PARENT_HOST_REF": 20384
+          },
+          {
+            "PLANT_NAME": [
+              {
+                "type": "LATIN_NAME",
+                "NAME": "Pseudotsuga"
+              },
+              {
+                "type": "COMMON_NAME",
+                "NAME": [
+                  "Douglas-fir"
+                ]
+              },
+              {
+                "type": "SYNONYM_NAME",
+                "NAME": []
+              }
+            ],
+            "HOST_REF": 20384,
+            "HOST_CLASS": null,
+            "EPPO_CODE": "1PSTG",
+            "LATIN_NAME": "Pseudotsuga",
+            "PARENT_HOST_REF": 27500
+          }
+        ],
+        "PEST_COUNTRY_DISTRIBUTION": [
+          {
+            "COUNTRY_CODE": "NL",
+            "COUNTRY_NAME": "Netherlands",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "CH",
+            "COUNTRY_NAME": "Switzerland",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "DE",
+            "COUNTRY_NAME": "Germany",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "NO",
+            "COUNTRY_NAME": "Norway",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "CZ",
+            "COUNTRY_NAME": "Czech Republic",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "",
+            "COUNTRY_NAME": "",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "GB",
+            "COUNTRY_NAME": "United Kingdom",
+            "COUNTRY_STATUS": "Present (Limited)"
+          },
+          {
+            "COUNTRY_CODE": "PL",
+            "COUNTRY_NAME": "Poland",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "ES",
+            "COUNTRY_NAME": "Spain",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "HU",
+            "COUNTRY_NAME": "Hungary",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "RU",
+            "COUNTRY_NAME": "Russia",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "DK",
+            "COUNTRY_NAME": "Denmark",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "JP",
+            "COUNTRY_NAME": "Japan",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "AT",
+            "COUNTRY_NAME": "Austria",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "RO",
+            "COUNTRY_NAME": "Romania",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "IT",
+            "COUNTRY_NAME": "Italy",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "RS",
+            "COUNTRY_NAME": "Serbia",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "EE",
+            "COUNTRY_NAME": "Estonia",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "",
+            "COUNTRY_NAME": "",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "BE",
+            "COUNTRY_NAME": "Belgium",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "SK",
+            "COUNTRY_NAME": "Slovakia",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "LT",
+            "COUNTRY_NAME": "Lithuania",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "TR",
+            "COUNTRY_NAME": "Türkiye",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "FI",
+            "COUNTRY_NAME": "Finland",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "BA",
+            "COUNTRY_NAME": "Bosnia-Herzegovina",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "BG",
+            "COUNTRY_NAME": "Bulgaria",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "SE",
+            "COUNTRY_NAME": "Sweden",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "LU",
+            "COUNTRY_NAME": "Luxembourg",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "UA",
+            "COUNTRY_NAME": "Ukraine",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "FR",
+            "COUNTRY_NAME": "France",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "GE",
+            "COUNTRY_NAME": "Georgia",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "HR",
+            "COUNTRY_NAME": "Croatia",
+            "COUNTRY_STATUS": "Present"
+          },
+          {
+            "COUNTRY_CODE": "CN",
+            "COUNTRY_NAME": "China",
+            "COUNTRY_STATUS": "Present"
+          }
+        ],
+        "PEST_RISK_STATUS": "string",
+        "DOCUMENT_LINK": [],
+        "SPECIES_NAME": "string",
+        "TAXONOMY": "string"
+      }
+    ]
+  }
+]
