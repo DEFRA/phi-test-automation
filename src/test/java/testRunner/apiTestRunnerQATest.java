@@ -20,7 +20,7 @@ public class apiTestRunnerQATest {
     void testParallel() {
         Results results = Runner.path("classpath:examples")
                 .outputCucumberJson(true)
-                .tags("@Notprohibited")
+                .tags("@regression")
                 .karateEnv("qa")
                 .parallel(1);
         generateReport(results.getReportDir());
