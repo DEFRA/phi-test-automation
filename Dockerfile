@@ -1,6 +1,6 @@
 FROM amazoncorretto:17-alpine
 
-RUN apk update && apk add maven
+RUN apk update && apk add maven aws-cli
 
 WORKDIR app
 
