@@ -1,9 +1,8 @@
 #!/bin/sh
 
 echo "run_id: $RUN_ID"
-mvn clean
-mvn verify
-mvn install
+
+mvn test
 
 test_exit_code=$?
 

@@ -1,10 +1,9 @@
-FROM amazoncorretto:11-alpine
+FROM amazoncorretto:17-alpine
 
 RUN apk update && apk add maven
 
 COPY . .
 
-RUN mvn compile
-
+RUN mvn clean compile test-compile
 
 ENTRYPOINT [ "./entrypoint.sh" ]
