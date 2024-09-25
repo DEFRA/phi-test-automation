@@ -2,7 +2,7 @@
 
 echo "run_id: $RUN_ID"
 
-mvn test
+mvn test -o -nsu
 
 test_exit_code=$?
 
