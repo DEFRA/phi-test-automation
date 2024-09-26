@@ -1,3 +1,4 @@
+@regression
 Feature: Validate the Annex 6 rules for prohibited and Not prohibited plants
 
   @prohibited

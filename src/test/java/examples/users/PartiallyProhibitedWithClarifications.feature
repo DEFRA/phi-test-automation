@@ -1,3 +1,4 @@
+@regression
 Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clarifications and exemptions
 
 

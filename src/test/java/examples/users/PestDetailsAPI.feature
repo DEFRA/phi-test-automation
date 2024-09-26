@@ -7,7 +7,7 @@ Feature: Validate post operation for plant Detail API
 
   @pestDetails
   Scenario Outline: Validate POST for plant detail API for '<SearchString>'
-    Given url 'https://phi-etl-fera-backend.dev.cdp-int.defra.cloud/search/pestdetails?'
+    Given url 'https://phi-etl-fera-backend.test.cdp-int.defra.cloud/search/pestdetails?'
     And request { "pestDetails": { "cslRef": <cslref> } }
     When method POST
     Then status 200
