@@ -3,7 +3,7 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
 
 
   @ppwithSubformatException
-  Scenario Outline: Validate POST for plant detail API for '<SearchString>'
+  Scenario Outline: Validate Annex 6 and Annex 11 rules for partially prohibited with exemptions'<SearchString>'
     Given url 'https://phi-etl-fera-backend.test.cdp-int.defra.cloud/workflow'
     And request {"plantDetails": {"hostRef": <hostref>,"serviceFormat": <serviceFormat>,"country": <country>}}
     When method POST
@@ -11,33 +11,33 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
     And print 'response returned by API:', response
     And match response.outcome == '<Outcome>'
     And match response.annexSixRule == '<Annex6>'
-    And match response.A11_RULE == '<Annex11>'
+    And match response.annex11RulesArr[0].A11_RULE == '<Annex11>'
 
     Examples:
       | SearchString      | hostref | serviceFormat       | country       | Outcome              | Annex6          | Annex11 |
       | Phoenix           | 18794   | Plants for planting | Algeria       | partially-prohibited | 6A13            | 11A04   |
       | Photinia          | 18822   | Plants for planting | United States | partially-prohibited | 6A12            | 11A04   |
-      | Poncirus          | 19824   | Plants for planting | India         | partially-prohibited | 6A11            | 11C25   |
+      | Poncirus          | 19824   | Plants for planting | India         | partially-prohibited | 6A11            | 11A04   |
       | Malus             | 15575   | Plants for planting | Australia     | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A04   |
       | Malus             | 15575   | Plants for planting | United States | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A04   |
       | Prunus            | 20152   | Plants for planting | Jordan        | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A26   |
       | Prunus            | 20152   | Plants for planting | United States | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A26   |
-      | Pinus Thunbergi   | 19213   | Parts of a plant    | Japan         | partially-prohibited | 6A1             | 11A26   |
-      | Juniperus         | 13695   | Parts of a plant    | South Korea   | partially-prohibited | 6A1             |         |
+      | Pinus Thunbergi   | 19213   | Parts of a plant    | Japan         | partially-prohibited | 6A1             | 11A12   |
+      | Juniperus         | 13695   | Parts of a plant    | South Korea   | partially-prohibited | 6A1             | 11A12   |
       | Ullucus tuberosus | 26112   | Produce             | Canada        | partially-prohibited | 6B2             | 11A05   |
       | Phoenix           | 18794   | Produce             | Algeria       | partially-prohibited | 6A13            | 11A13   |
 
   @ppwithClarification
-  Scenario Outline: Validate POST for plant detail API for '<SearchString>'
+  Scenario Outline: Validate Annex 6 and Annex 11 rules for partially prohibited with clarifications '<SearchString>'
     Given url 'https://phi-etl-fera-backend.test.cdp-int.defra.cloud/workflow'
     And request {"plantDetails": {"hostRef": <hostref>,"serviceFormat": <serviceFormat>,"country": <country>}}
     When method POST
     Then status 200
-    And print 'Expected Response is:', <expectedPlantDetailResp>
+    #And print 'Expected Response is:', <expectedPlantDetailResp>
     And print 'response returned by API:', response
     And match response.outcome == '<Outcome>'
     And match response.annexSixRule == '<Annex6>'
-    And match response.A11_RULE == '<Annex11>'
+    And match response.annex11RulesArr[0].A11_RULE == '<Annex11>'
 
     Examples:
       | SearchString | hostref | serviceFormat       | country     | Outcome              | Annex6          | Annex11 |
@@ -52,5 +52,5 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
       | Prunus       | 20152   | Plants for planting | Russia      | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A26   |
       | Uniola       | 26154   | Plants for planting | Canada      | partially-prohibited | 6A14            | 11A04   |
       | Shibataea    | 23491   | Plants for planting | Russia      | partially-prohibited | 6A14            | 11A04   |
-      | Cedrus Trew  | 5364    | Parts of a plant    | Russia      | partially-prohibited | 6A1             |         |
+      | Cedrus Trew  | 5364    | Parts of a plant    | Russia      | partially-prohibited | 6A1             | 11A12   |
 
