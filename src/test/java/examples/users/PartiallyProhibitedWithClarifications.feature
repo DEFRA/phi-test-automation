@@ -23,7 +23,7 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
       | Prunus            | 20152   | Plants for planting | Jordan        | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A26   |
       | Prunus            | 20152   | Plants for planting | United States | partially-prohibited | 6A8 + 6A9 + 6B1 | 11A26   |
       | Pinus Thunbergi   | 19213   | Parts of a plant    | Japan         | partially-prohibited | 6A1             | 11A12   |
-      | Juniperus         | 13695   | Parts of a plant    | South Korea   | partially-prohibited | 6A1             | 11A12   |
+      | Juniperus         | 13695   | Parts of a plant    | South Korea   | partially-prohibited | 6A1             |         |
       | Ullucus tuberosus | 26112   | Produce             | Canada        | partially-prohibited | 6B2             | 11A05   |
       | Phoenix           | 18794   | Produce             | Algeria       | partially-prohibited | 6A13            | 11A13   |
 
@@ -45,7 +45,7 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
       | Fraxinus     | 10970   | Plants for planting | France      | partially-prohibited | 6A21            | 11A04   |
       | Fraxinus     | 10970   | Parts of a plant    | France      | partially-prohibited | 6A21            | 11A17   |
       | Solanum      | 23765   | Produce             | Australia   | partially-prohibited | 6A17            |         |
-      | Solanum      | 23765   | Plants for planting | Australia   | partially-prohibited | 6A16            | 11A04   |
+      | Solanum      | 23765   | Plants for planting | Australia   | partially-prohibited | 6A16 + 6A18     | 11A04   |
       | Juniperus    | 13695   | Plants for planting | South Korea | partially-prohibited | 6A1             | 11A04   |
       | Fragaria     | 10947   | Plants for planting | Russia      | partially-prohibited | 6A9             | 11A04   |
       | Crataegus    | 7196    | Plants for planting | Russia      | partially-prohibited | 6A8 + 6B1       | 11A04   |

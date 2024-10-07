@@ -69,8 +69,8 @@ Feature: Validate the Annex 6 rules for prohibited and Not prohibited plants
       | Phalaris                      | 18631   | Plants for planting | Jordan  | 6A14   | un-prohibited |
       | Panicoideae                   | 17879   | Plants for planting | Algeria | 6A14   | un-prohibited |
       | Molinia                       | 16370   | Plants for planting | Algeria | 6A14   | un-prohibited |
-      | Hystrix                       | 13005   | Plants for planting | Israel  | 6A14   | un-prohibited |
-      | Hakonechloa                   | 13005   | Plants for planting | Lebanon | 6A14   | un-prohibited |
+      | Hystrix                       | 13006   | Plants for planting | Israel  | 6A14   | un-prohibited |
+      | Hakonechloa                   | 13006   | Plants for planting | Lebanon | 6A14   | un-prohibited |
       | Glyceria                      | 11549   | Plants for planting | Morocco | 6A14   | un-prohibited |
       | Cortaderia                    | 7048    | Plants for planting | Tunisia | 6A14   | un-prohibited
       | Calamagrostis                 | 4348    | Plants for planting | Tunisia | 6A14   | un-prohibited |
