@@ -77,4 +77,4 @@ Feature: Validate the Annex 6 rules for prohibited and Not prohibited plants
       | Buchloe                       | 4137    | Plants for planting | Tunisia | 6A14   | un-prohibited |
       | Bouteloua                     | 3833    | Plants for planting | Tunisia | 6A14   | un-prohibited |
       | Arthrostylidium capillifolium | 2473    | Plants for planting | Egypt   | 6A14   | un-prohibited |
-      | Solanum biflorum              | 23785   | Plants for planting | Germany | 6A16   | un-prohibited |
+      | Solanum biflorum              | 23785   | Plants for planting | Germany |        | un-prohibited |
