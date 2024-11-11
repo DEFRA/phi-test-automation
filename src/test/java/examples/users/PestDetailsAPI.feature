@@ -1,12 +1,11 @@
 @regression
-Feature: Validate post operation for plant Detail API
+Feature: Validate pest details API when accessing a pest information from the plant page
 
-  #Background:
-  # * def expectedPestDetailResp = read('classpath:examples/users/Payload/expectedPestDetailResp.json')
-
+#  Background:
+#    * def expectedPestDetailResp = read('classpath:examples/users/Payload/expectedPestDetailResp.json')
 
   @pestDetails
-  Scenario Outline: Validate POST for plant detail API for '<SearchString>'
+  Scenario Outline: Validate POST for pest detail API for '<SearchString>'
     Given url 'https://phi-etl-fera-backend.test.cdp-int.defra.cloud/search/pestdetails?'
     And request { "pestDetails": { "cslRef": <cslref> } }
     When method POST
@@ -43,7 +42,7 @@ Feature: Validate post operation for plant Detail API
       | Planococcus lilacinus                          | 10058  |
       | Porphyrophora tritici                          | 10123  |
       | Pratylenchus penetrans                         | 10135  |
-      | Gymnosporangium libocedri                      | 10093  |
+      | Gymnosporangium libocedri                      | 10993  |
       | Leveillula taurica                             | 11004  |
       | Peach mosaic virus (American)                  | 11032  |
       | Mexican periwinkle virescence phytoplasma      | 11047  |
@@ -148,15 +147,3 @@ Feature: Validate post operation for plant Detail API
       | Thrips imaginis                                | 18864  |
       | Thrips parvispinus                             | 18866  |
       | Tinocallis takachihoensis                      | 18870  |
-
-
-
-
-
-
-
-
-
-
-
-

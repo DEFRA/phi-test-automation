@@ -45,7 +45,7 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
       | Fraxinus     | 10970   | Plants for planting | France      | partially-prohibited | 6A21            | 11A04   |
       | Fraxinus     | 10970   | Parts of a plant    | France      | partially-prohibited | 6A21            | 11A17   |
       | Solanum      | 23765   | Produce             | Australia   | partially-prohibited | 6A17            |         |
-      | Solanum      | 23765   | Plants for planting | Australia   | partially-prohibited | 6A16 + 6A18     | 11A04   |
+      | Solanum      | 23765   | Plants for planting | Australia   | partially-prohibited | 6A16 + 6A18     | 11A27A  |
       | Juniperus    | 13695   | Plants for planting | South Korea | partially-prohibited | 6A1             | 11A04   |
       | Fragaria     | 10947   | Plants for planting | Russia      | partially-prohibited | 6A9             | 11A04   |
       | Crataegus    | 7196    | Plants for planting | Russia      | partially-prohibited | 6A8 + 6B1       | 11A04   |
@@ -53,4 +53,5 @@ Feature: Validate Annex 6 and Annex 11 rules for partially prohibited with clari
       | Uniola       | 26154   | Plants for planting | Canada      | partially-prohibited | 6A14            | 11A04   |
       | Shibataea    | 23491   | Plants for planting | Russia      | partially-prohibited | 6A14            | 11A04   |
       | Cedrus Trew  | 5364    | Parts of a plant    | Russia      | partially-prohibited | 6A1             | 11A12   |
+
 
